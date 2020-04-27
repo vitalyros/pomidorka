@@ -1,0 +1,8 @@
+[package]
+name = "pomidorka"
+version = "0.1.0"
+authors = ["vitalyros"]
+edition = "2018"
+
+[dependencies]
+rodio = "0.11.0"
