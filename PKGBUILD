@@ -11,5 +11,6 @@ md5sums=("51377e112e2b3a0b8650369aee9261ad")
 license=('MIT')
 package() {
     cargo install --root="$pkgdir/usr/" $pkgname
+    mkdir -p "$pkgdir/usr/share/$pkgname/"
     install -D --mode=644 --owner=root --group=root $srcdir/alarm.mp3 "$pkgdir/usr/share/$pkgname/"
 }
