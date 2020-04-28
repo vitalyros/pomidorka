@@ -1,8 +1,13 @@
 [package]
 name = "pomidorka"
-version = "0.1.0"
-authors = ["vitalyros"]
-edition = "2018"
+version = "0.1.1"
+authors = ["Vitaly Roslov 22212673+vitalyros@users.noreply.github.com"]
+description = "Console timer for Pomodoro Technique"
+homepage = "https://github.com/vitalyros/pomidorka"
+license = "MIT"
+exclude = [
+    "alarm.mp3",
+]
 
 [dependencies]
 rodio = "0.11.0"

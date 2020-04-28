@@ -1,5 +1,5 @@
 # pomidorka
-A simple console timer app to help with Pomodoro Technique 
+Console timer for Pomodoro Technique
 
 Build and run with "cargo run"
 
